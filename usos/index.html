@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>USOS</title> 
+<!-- For-Mobile-Apps-and-Meta-Tags -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //For-Mobile-Apps-and-Meta-Tags -->
+<!-- Custom Theme files -->
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/style.css" type="text/css" rel="stylesheet" media="all"> 
+<link rel="stylesheet" href="css/ken-burns.css" type="text/css" media="all" /> 
+<!-- //Custom Theme files -->
+    
+    <!-- Material Design Lite -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.orange-indigo.min.css">
+  <script defer src="https://code.getmdl.io/1.1.3/material.min.js"></script>
+
+  <!-- App Styling -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    
+    
+    
+<!-- js -->
+<script src="js/jquery-2.2.3.min.js"></script> 
+<!-- //js -->
+<!-- pop-up-box -->
+<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+	    <script>
+			$(document).ready(function() {
+				$('.popup-top-anim').magnificPopup({
+					type: 'inline',
+					fixedContentPos: false,
+					fixedBgPos: true,
+					overflowY: 'auto',
+					closeBtnInside: true,
+					preloader: false,
+					midClick: true,
+					removalDelay: 300,
+					mainClass: 'my-mfp-zoom-in'
+				});																							
+			}); 
+		</script>
+<!--//pop-up-box -->
+<!-- web-fonts -->  
+<link href='//fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<!-- //web-fonts -->
+</head>
+<body class="bg">
+	<div class="agile-main"> 
+		<div class="menu-wrap" id="style-1"> 
+			<nav class="top-nav">
+				<ul class="icon-list">
+					<li class="menu-title">USOS</li>
+					<li><a class="active" id="register-section"><i class="glyphicon glyphicon-pencil"></i> Registro </a></li>
+                    <li><a id="stats-section"><i class="glyphicon glyphicon-bullhorn"></i> Información del evento </a></li>
+					<li><a id="list-section"><i class="glyphicon glyphicon-map-marker"></i> Zonas seguras </a></li>
+					<li><a id="mochila-section"><i class="glyphicon glyphicon-info-sign"></i> Mochila segura </a></li>
+				</ul>
+			</nav>
+			<button class="close-button" id="close-button">C</button>
+		</div> 
+		<div class="content-wrap">
+			<div class="header"> 
+				<div class="menu-icon">   
+					<button class="menu-button" id="open-button">O</button>
+				</div>
+                <div hidden id="cuantas"></div>
+				<div class="logo">
+					<!--<img src="images/logo_light.png"/> -->
+				</div>
+				
+                <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-grid">
+                
+                <div id="user-container">
+                    
+                    <div hidden id="user-pic"></div>
+                    <div hidden id="user-name"></div>
+                    <button hidden id="sign-out" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--white">
+                    Sign-out
+                    </button>
+                </div>
+                    
+                    <div id="user-containerFB">
+                    <div hidden id="user-picFB"></div>
+                    <div hidden id="user-nameFB"></div>
+                </div>
+                    
+                </div>
+                    
+				<div class="clearfix"> </div>
+			</div>
+			<div class="content">
+				
+				<!-- welcome --> <!-- en realidad este es el login -->
+				<div class="welcome" id="login-page"> 
+                    <h3 class="w3ls-title">Bienvenido a usos <br> Por favor inicia sesión</h3> 
+					<img class="displayed" src="images/logo2.png"/> 
+                    <button hidden id="sign-inFB" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--blue">
+                    <i class="material-icons">account_circle</i> FB sign-in 
+                    </button>
+                    <button hidden id="sign-in" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--blue">
+                    <i class="material-icons">account_circle</i> Google sign-in
+                    </button>
+                    <div class="clearfix"> </div>
+						 	
+				</div> 
+				<!-- //welcome -->
+                
+                <!-- register -->
+				<div hidden class="register" id="register-page"> 
+                    <div id="person-container" class="mdl-cell mdl-cell--12-col mdl-grid text-center">
+                        <div id="number-container">
+                            <h3>Por favor ingresa la siguiente información</h3>
+                        </div>
+                    </div>
+                    <div id="register-container" class="mdl-cell mdl-cell--12-col mdl-grid text-center">
+                        <div id="form-container">
+                            <h4 id="person-number"></h4>
+                            <input type="text" name="name" placeholder="Nombre completo" required id="name">
+                            <input type="text" name="age" placeholder="Edad" required id="age">
+                            <input list="blood" placeholder="Tipo de sangre" required id="blood2"> 
+                                <datalist id="blood">
+                                    <option value="O+">O+</option>
+                                    <option value="O-">O-</option>
+                                    <option value="A+">A+</option>
+                                    <option value="A-">A-</option>
+                                    <option value="B+">B+</option>
+                                    <option value="B-">B-</option>
+                                    <option value="AB+">AB+</option>
+                                    <option value="AB-">AB-</option>
+                                </datalist>
+                            <input list="gender" placeholder="Género" id="gender2">
+                                <datalist id="gender">
+                                    <option value="Femenino">Femenino</option>
+                                    <option value="Masculino">Masculino</option>
+                                    <option value="Otro">Otro</option>
+                                </datalist>
+                            <input type="text" name="ocupation" placeholder="Ocupación" id="ocupation">
+                            <input type="text" name="allergies" placeholder="Alergias" id="allergies">
+                            <input list="sustent" placeholder="Es sustento familiar" id="sustent2">
+                                <datalist id="sustent">
+                                    <option value="Si">Si</option>
+                                    <option value="No">No</option>
+                                </datalist>
+                            <input list="discap" placeholder="Posee discapacidad" id="discap3">
+                                <datalist id="discap">
+                                    <option value="Si">Si</option>
+                                    <option value="No">No</option>
+                                </datalist>
+                            <input type="text" name="discap2" placeholder="Cual" id="discap2">
+                        </div>
+                    </div>
+                    <div id="messages-card-container" class="mdl-cell mdl-cell--12-col mdl-grid text-center">
+                        <button id="submit-form" disabled class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+                        Enviar
+                        </button>
+                    </div>
+                    
+                </div>
+                    
+				<!-- //register -->
+                
+                <div class="mochila" id="mochila-page"> 
+                    <h3 class="w3ls-title">Prepara tu mochila</h3> 
+					<div id="brands-container" class="mdl-cell mdl-cell--12-col mdl-grid text-center">
+                        <label class="opciones2">
+                            <input type="checkbox" name="venue1" value="1"/>
+                            <img src="images/mochila/agua.png">
+                        </label>
+                        <label class="opciones2">
+                            <input type="checkbox" name="venue1" value="2"/>
+                            <img src="images/mochila/alcohol.png">
+                        </label>
+                        <label class="opciones2">
+                            <input type="checkbox" name="venue1" value="3"/>
+                            <img src="images/mochila/barra.png">
+                        </label>
+                        <label class="opciones2">
+                            <input type="checkbox" name="venue1" value="4"/>
+                            <img src="images/mochila/botiquin.png">
+                        </label>
+                        <label class="opciones2">
+                            <input type="checkbox" name="venue1" value="5"/>
+                            <img src="images/mochila/chocolate.png">
+                        </label>
+                        <label class="opciones2">
+                            <input type="checkbox" name="venue1" value="6"/>
+                            <img src="images/mochila/cobija.png">
+                        </label>
+                        <label class="opciones2">
+                            <input type="checkbox" name="venue1" value="7"/>
+                            <img src="images/mochila/documento.png">
+                        </label>
+                        <label class="opciones2">
+                            <input type="checkbox" name="venue1" value="8"/>
+                            <img src="images/mochila/fosforo.png">
+                        </label>
+                        <label class="opciones2">
+                            <input type="checkbox" name="venue1" value="9"/>
+                            <img src="images/mochila/funda.png">
+                        </label>
+                        <label class="opciones2">
+                            <input type="checkbox" name="venue1" value="10"/>
+                            <img src="images/mochila/linterna.png">
+                        </label>
+                        <label class="opciones2">
+                            <input type="checkbox" name="venue1" value="11"/>
+                            <img src="images/mochila/llaves.png">
+                        </label>
+                        <label class="opciones2">
+                            <input type="checkbox" name="venue1" value="12"/>
+                            <img src="images/mochila/radio.png">
+                        </label>
+                        <label class="opciones2">
+                            <input type="checkbox" name="venue1" value="13"/>
+                            <img src="images/mochila/saco.png">
+                        </label>
+                    </div>
+						 	
+				</div> 
+				
+				<!-- footer -->
+				<div class="w3agile footer"> 
+					<div class="footer-text">
+						<p>&copy; 2016 USOS. All Rights Reserved </p>
+					</div>
+				</div> 
+			</div>
+		</div>
+	</div> 
+	<!-- menu-js -->
+	<script src="js/classie.js"></script>
+	<script src="js/main.js"></script>
+	<!-- //menu-js -->
+	<!-- nice scroll-js -->
+	<script src="js/jquery.nicescroll.min.js"></script> 
+	<script>
+		$(document).ready(function() {
+	  
+			var nice = $("html").niceScroll();  // The document page (body)
+		
+			$("#div1").html($("#div1").html()+' '+nice.version);
+		
+			$("#boxscroll").niceScroll({cursorborder:"",cursorcolor:"#00F",boxzoom:true}); // First scrollable DIV
+		});
+	</script>
+	<!-- //nice scroll-js -->
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    
+    <!-- Firebase -->
+<!-- ***********************************************************************************************************************
+     * TODO(DEVELOPER): Paste the initialization snippet from: Firebase Console > Overview > Add Firebase to your web app. *
+     *********************************************************************************************************************** -->
+<script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAFrZeldw6A993gGHtts7GmGPHazw56KdI",
+    authDomain: "usos-a10e5.firebaseapp.com",
+    databaseURL: "https://usos-a10e5.firebaseio.com",
+    storageBucket: "usos-a10e5.appspot.com",
+  };
+  firebase.initializeApp(config);
+</script>
+    
+    <script src="js/fireconf.js"></script>
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
