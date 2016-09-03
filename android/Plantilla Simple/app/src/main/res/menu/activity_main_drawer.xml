@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+    </group>
+
+    <item android:title="Opciones">
+        <menu>
+            <item
+                android:id="@+id/home"
+                android:icon="@mipmap/ic_home_black_24dp"
+                android:title="HOME" />
+            <item
+                android:id="@+id/personas"
+                android:icon="@mipmap/ic_person_add_black_24dp"
+                android:title="PERSONAS" />
+            <item
+                android:id="@+id/organizacion"
+                android:icon="@mipmap/ic_location_city_black_24dp"
+                android:title="ORGANIZACION" />
+            <item
+                android:id="@+id/negocio"
+                android:icon="@mipmap/ic_chrome_reader_mode_black_24dp"
+                android:title="NEGOCIO" />
+            <item
+                android:id="@+id/actiidades"
+                android:icon="@mipmap/ic_domain_black_24dp"
+                android:title="ACTIVIDADES" />
+            <item
+                android:id="@+id/login"
+                android:icon="@mipmap/ic_perm_identity_black_24dp"
+                android:title="LOGIN" />
+        </menu>
+    </item>
+
+
+</menu>

@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="layout.login"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <EditText
+        style="@style/textField"
+        android:id="@+id/usuario"
+        android:hint="usuario"/>
+
+    <EditText
+        style="@style/textFieldEmail"
+        android:id="@+id/email"
+        android:hint="e-mail"/>
+
+    <Button
+        style="@style/button"
+        android:text="LOGIN"
+        android:id="@+id/button"
+        android:onClick="login"/>
+</LinearLayout>

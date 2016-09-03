@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\ownCloud\DESARROLLO\NXT_U\ANDR\C3\EvaluacionFinal\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="D:\ownCloud\DESARROLLO\NXT_U\ANDR\C3\EvaluacionFinal\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.0_5839f9cf617430f2aa79bcc77ddf5b12d0f057cc\classes.dex" />
+    </item>
+    <item
+        jar="D:\ownCloud\DESARROLLO\NXT_U\ANDR\C3\EvaluacionFinal\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="D:\ownCloud\DESARROLLO\NXT_U\ANDR\C3\EvaluacionFinal\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_175a96ae0c30ea3412bb0c03e2ee7b8a84a9021b\classes.dex" />
+    </item>
+    <item
+        jar="D:\ownCloud\DESARROLLO\NXT_U\ANDR\C3\EvaluacionFinal\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="D:\ownCloud\DESARROLLO\NXT_U\ANDR\C3\EvaluacionFinal\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_898a0744b516f351c20569da5490e0969f964fd1\classes.dex" />
+    </item>
+    <item
+        jar="D:\ownCloud\DESARROLLO\NXT_U\ANDR\C3\EvaluacionFinal\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="D:\ownCloud\DESARROLLO\NXT_U\ANDR\C3\EvaluacionFinal\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.0_34483ed9c9ac5690506629f5d2e44bc78dbe6152\classes.dex" />
+    </item>
+    <item
+        jar="D:\ownCloud\DESARROLLO\NXT_U\ANDR\C3\EvaluacionFinal\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="D:\ownCloud\DESARROLLO\NXT_U\ANDR\C3\EvaluacionFinal\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.0_ebe98e6dbaf8b2bcf95730912225db9e344313fb\classes.dex" />
+    </item>
+    <item
+        jar="D:\ownCloud\DESARROLLO\NXT_U\ANDR\C3\EvaluacionFinal\app\build\intermediates\exploded-aar\com.android.support\design\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="23eb0d2998a782213b56168cbf23a0688b9111d9">
+        <dex dex="D:\ownCloud\DESARROLLO\NXT_U\ANDR\C3\EvaluacionFinal\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.0_0f3dddea5b02d4b8492c0157bfab2ee4a2e2318d\classes.dex" />
+    </item>
+    <item
+        jar="D:\ownCloud\DESARROLLO\NXT_U\ANDR\C3\EvaluacionFinal\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="D:\ownCloud\DESARROLLO\NXT_U\ANDR\C3\EvaluacionFinal\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.0_87e79a1af7f18692ac2953eaa542b0c3df617ced\classes.dex" />
+    </item>
+    <item
+        jar="D:\ownCloud\DESARROLLO\NXT_U\ANDR\C3\EvaluacionFinal\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="D:\ownCloud\DESARROLLO\NXT_U\ANDR\C3\EvaluacionFinal\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_f88561685f994559cfdbf46b0d3d307c786cd04c\classes.dex" />
+    </item>
+    <item
+        jar="D:\ownCloud\DESARROLLO\NXT_U\ANDR\C3\EvaluacionFinal\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="D:\ownCloud\DESARROLLO\NXT_U\ANDR\C3\EvaluacionFinal\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.0_82a04ad41a2edebfb53f4274e28446ab1471fbdc\classes.dex" />
+    </item>
+    <item
+        jar="D:\ownCloud\DESARROLLO\NXT_U\ANDR\C3\EvaluacionFinal\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="D:\ownCloud\DESARROLLO\NXT_U\ANDR\C3\EvaluacionFinal\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.0_5d294942c41b5a3e164f6d7eb709c20e2ab26c10\classes.dex" />
+    </item>
+    <item
+        jar="D:\ownCloud\DESARROLLO\NXT_U\ANDR\C3\EvaluacionFinal\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="D:\ownCloud\DESARROLLO\NXT_U\ANDR\C3\EvaluacionFinal\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.0_369da0e35d31e00b43a25b2632130d611814f532\classes.dex" />
+    </item>
+    <item
+        jar="D:\ownCloud\DESARROLLO\NXT_U\ANDR\C3\EvaluacionFinal\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="D:\ownCloud\DESARROLLO\NXT_U\ANDR\C3\EvaluacionFinal\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.0_d4d894de5dafce2b2584f0ae044bbb5079ce18ea\classes.dex" />
+    </item>
+    <item
+        jar="D:\ownCloud\DESARROLLO\NXT_U\ANDR\C3\EvaluacionFinal\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="3e7d357c7ca1af59ee7692501db9de815e10e291">
+        <dex dex="D:\ownCloud\DESARROLLO\NXT_U\ANDR\C3\EvaluacionFinal\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_0109248b765cfd97a8dd8b957b3859388630e710\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\AEMB-OFICINA\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.0\support-annotations-24.2.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="D:\ownCloud\DESARROLLO\NXT_U\ANDR\C3\EvaluacionFinal\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.0_977766b273c4fa7ddd7670c82b9f92172701910b\classes.dex" />
+    </item>
+    <item
+        jar="D:\ownCloud\DESARROLLO\NXT_U\ANDR\C3\EvaluacionFinal\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="D:\ownCloud\DESARROLLO\NXT_U\ANDR\C3\EvaluacionFinal\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.0_83e49985496910e2605ea95c9fa9a9356ad8f701\classes.dex" />
+    </item>
+    <item
+        jar="D:\ownCloud\DESARROLLO\NXT_U\ANDR\C3\EvaluacionFinal\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="D:\ownCloud\DESARROLLO\NXT_U\ANDR\C3\EvaluacionFinal\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_e19081c764192b86bee37e0af9f76b89d5da2426\classes.dex" />
+    </item>
+    <item
+        jar="D:\ownCloud\DESARROLLO\NXT_U\ANDR\C3\EvaluacionFinal\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c755536e5a100d9c76c8ea0b72f76c018f7a9de2">
+        <dex dex="D:\ownCloud\DESARROLLO\NXT_U\ANDR\C3\EvaluacionFinal\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.0_d33375ad8699f6c3f6d9bebb4b25a9bedce777ca\classes.dex" />
+    </item>
+    <item
+        jar="D:\ownCloud\DESARROLLO\NXT_U\ANDR\C3\EvaluacionFinal\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="8aa8527f0182978378140b9b78738019fd56ec82">
+        <dex dex="D:\ownCloud\DESARROLLO\NXT_U\ANDR\C3\EvaluacionFinal\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_3e5d307e3918ac6cc3b24f786e2e0d2f30613d37\classes.dex" />
+    </item>
+    <item
+        jar="D:\ownCloud\DESARROLLO\NXT_U\ANDR\C3\EvaluacionFinal\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="D:\ownCloud\DESARROLLO\NXT_U\ANDR\C3\EvaluacionFinal\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_cb3e8ff9b7406091776d4cf01e4ba9db4c7ea06a\classes.dex" />
+    </item>
+
+</items>

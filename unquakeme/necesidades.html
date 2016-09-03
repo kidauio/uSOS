@@ -1,0 +1,57 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>unquake.me</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="css/styles.css">
+    <script src="js/scripts.js" type="text/javascript"></script>
+
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+    
+    <h1> Unquake.me </h1>
+    <h2> Necesidades </h2>
+    <p> Que necesidades tienes </p>
+
+   <input type="checkbox" name="necesidades" value="1">Agua potable
+<br>
+<input type="checkbox" name="necesidades" value="1">Luz 
+<br>
+<input type="checkbox" name="necesidades" value="1">Alimentos 
+<br>
+    
+    <input type="checkbox" name="necesidades" value="1">Medicinas
+<br>
+    <input type="checkbox" name="necesidades" value="1">Insumos médicos
+<br>
+    
+    
+    <div class="contact-form">
+				<div class="container">
+					<form id="contact-form">
+						<div class="submit-area">
+							<input type="submit" id="submit_contact" value="Enviar">
+							<div id="msg" class="message"></div>								
+						</div>
+                       
+					</form>
+                    <button name="redirect" onClick="redirect()">Regresar</button>
+<script type="text/javascript">
+function redirect(){
+var url = "index.html";
+window.open(url, '_top');
+}
+</script>
+				</div>
+			</div>
+</body>
+</html>

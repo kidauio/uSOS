@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="layout.personas">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <EditText
+        android:id="@+id/nombre"
+        style="@style/textField"
+        android:hint="Nombre" />
+
+    <EditText
+        android:id="@+id/telefono"
+        style="@style/textField"
+        android:hint="Telefono" />
+
+    <EditText
+        android:id="@+id/e_mail"
+        style="@style/textField"
+        android:hint="E-mail" />
+
+    <Button
+        android:id="@+id/agregar_persona"
+        style="@style/button"
+        android:text="AGREGAR PERSONA"
+        android:onClick="agregarPersonas"/>
+
+</LinearLayout>

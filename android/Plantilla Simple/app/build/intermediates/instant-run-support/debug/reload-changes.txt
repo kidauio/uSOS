@@ -1,0 +1,2 @@
+CHANGED,D:\ownCloud\DESARROLLO\NXT_U\ANDR\C3\EvaluacionFinal\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\ec\com\tas\evaluacionfinal\MainActivity$override.class
+CHANGED,D:\ownCloud\DESARROLLO\NXT_U\ANDR\C3\EvaluacionFinal\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class

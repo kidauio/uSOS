@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="layout.negocio">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:id="@+id/editText"
+        style="@style/textField"
+        android:hint="Título" />
+
+    <EditText
+        android:id="@+id/editText2"
+        style="@style/textField"
+        android:hint="Descripción" />
+
+    <EditText
+        android:id="@+id/editText3"
+        style="@style/textField"
+        android:hint="Organización" />
+
+    <EditText
+        android:id="@+id/editText4"
+        style="@style/textField"
+        android:hint="Persona" />
+
+    <EditText
+        android:id="@+id/editText5"
+        style="@style/textField"
+        android:hint="Valor" />
+
+    <EditText
+        android:id="@+id/editText6"
+        style="@style/textField"
+        android:hint="Fecha de Cierre" />
+
+    <EditText
+        android:id="@+id/editText7"
+        style="@style/textField"
+        android:hint="Estado" />
+
+    <Button
+        android:id="@+id/agrgar_atividad"
+        style="@style/button"
+        android:text="AGREGAR NEGOCIO"
+        android:onClick="agregarNegocio"/>
+
+</LinearLayout>
